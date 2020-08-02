@@ -19,13 +19,13 @@ var config = {
     // By default logging is enabled
     loggingEnabled: true,
     // Url to which to send the heartbeat
-    heartbeatApiUrl: 'https://wakatime.com/api/v1/users/current/heartbeats',
+    heartbeatApiUrl: 'http://localhost:3232/api/v1/users/current/heartbeats',
     // Url from which to detect if the user is logged in
     currentUserApiUrl: 'https://wakatime.com/api/v1/users/current',
     // The url to logout the user from wakatime
     logoutUserUrl: 'https://wakatime.com/logout',
     // Gets stats from the WakaTime API
-    summariesApiUrl: 'https://wakatime.com/api/v1/users/current/summaries',
+    summariesApiUrl: 'http://localhost:3232/api/v1/users/current/summaries',
     // Different colors for different states of the extension
     colors: {
         allGood: '',
